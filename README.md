@@ -1,2 +1,2 @@
 # DelivFrontEnd
-Aplicação de Delivary, Trabalho faculdade.
+Aplicação de Urna Eletronica, Trabalho faculdade.
