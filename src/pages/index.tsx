@@ -157,6 +157,8 @@ export const Urna = ({ stageStart }: UrnaProps) => {
       setQtdEleitores(null)
       setStage(1)
       setDigits(Array.from({ length: 6 }, () => -1));
+      destroyCookie(undefined, "ec.refreshToken");
+      destroyCookie(undefined, "ec.token");
     }
     setWhiteBool(false)
   }
